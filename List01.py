@@ -7,4 +7,8 @@ def main(fruits,x):
     Returns:
         list: return answer
     """
-    return
+    fruits.append(x)
+    return fruits
+x=input()
+fruits=[1,2,3,4,5,6]
+print(main(fruits,x))
