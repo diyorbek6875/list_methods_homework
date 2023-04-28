@@ -8,4 +8,9 @@ def main(fruits,x,i):
     Returns:
         list: return answer
     """
-    return
+    fruits.insert(i,x)
+
+    return fruits
+i=int(input())
+x=(input())
+print(main([1,2,3,4,5],x,i))
