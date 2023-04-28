@@ -7,4 +7,6 @@ def main(fruits1, fruits2):
     Returns:
         list: return answer
     """
-    return
+    #fruits1.extent(fruits2)
+    return fruits1 + fruits2
+print(main([1,2,3,4],['kivi','banana','apple']))
